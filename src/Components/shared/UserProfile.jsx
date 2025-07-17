@@ -15,7 +15,8 @@ const UserProfile = () => {
     const fetchUserProfile = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/v1/users/getAllUsers/${userId}`
+          // `http://localhost:3000/api/v1/users/getAllUsers/${userId}`
+          `https://job-scraping-extension-backend.onrender.com/api/v1/users/getAllUsers/${userId}`
         );
         setUserData(response.data.user);
       } catch (error) {

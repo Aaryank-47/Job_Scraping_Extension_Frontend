@@ -23,6 +23,7 @@ function Signup() {
       password: data.password,
     };
     await axios
+      // .post("http://localhost:3000/api/v1/users/signup", userInfo)
       .post("http://localhost:3000/api/v1/users/signup", userInfo)
       .then((res) => {
         console.log(res.data);

@@ -63,7 +63,8 @@ const ProfileSetup = () => {
 
     try {
       const response = await axios.put(
-        `http://localhost:3000/api/v1/users/updateProfile/${userId}`,
+        // `http://localhost:3000/api/v1/users/updateProfile/${userId}`,
+        `https://job-scraping-extension-backend.onrender.com/api/v1/users/updateProfile/${userId}`,
         formDataToSend,
         { headers: { "Content-Type": "multipart/form-data" } }
       );
