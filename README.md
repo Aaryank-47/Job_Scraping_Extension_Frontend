@@ -39,3 +39,19 @@ Select the dist/ folder created after the build.
 
 Use this FastAPI server repo:
 👉 https://github.com/Aaryank-47/Job_Scraping_fast_api
+
+To Run the backend server:
+git clone https://github.com/Aaryank-47/Job_Scraping_fast_api.git
+cd Scrape_API
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+uvicorn api:app --reload
+
+
+🛠️ Built With
+😎Vite – Next generation frontend tooling
+
+😎JavaScript - Backend Server
+
+😎FastAPI – Fast API server for job scraping
