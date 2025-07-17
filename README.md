@@ -6,9 +6,10 @@ This is a **Chrome Extension frontend** built using **Vite** that allows users t
 
 ## 🚀 How to Use
 
+```bash
 ### 1. Clone the Repository
 
-```bash
+
 git clone https://github.com/Aaryank-47/Job_Scraping_Extension_Frontend.git
 cd Job_Scraping_Extension_Frontend
 
