@@ -1,8 +1,41 @@
-# React + Vite
+# 🧩 Job Scraping Chrome Extension (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Chrome Extension frontend** built using **Vite** that allows users to scrape job listings from LinkedIn and Indeed via a backend FastAPI server.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 How to Use
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Aaryank-47/Job_Scraping_Extension_Frontend.git
+cd Job_Scraping_Extension_Frontend
+
+### 2. Install Dependencies
+npm install
+
+### 3. Build the Extension
+npm run build
+
+
+After running this command, a dist/ folder will be generated. This folder contains the final build of the Chrome Extension.
+
+### 4. Load Extension in Chrome
+Open Google Chrome.
+
+Go to chrome://extensions/.
+
+Enable Developer Mode (top-right corner).
+
+Click on Load Unpacked.
+
+Select the dist/ folder created after the build.
+
+✅ Your Chrome Extension is now ready to use!
+
+
+🔧 Server Setup Required
+
+Use this FastAPI server repo:
+👉 https://github.com/Aaryank-47/Job_Scraping_fast_api
