@@ -6,7 +6,7 @@ This is a **Chrome Extension frontend** built using **Vite** that allows users t
 
 ## 🚀 How to Use
 
-```bash
+<!-- ```bash -->
 ### 1. Clone the Repository
 
 
