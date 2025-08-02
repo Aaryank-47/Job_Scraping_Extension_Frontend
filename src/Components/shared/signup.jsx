@@ -24,7 +24,7 @@ function Signup() {
     };
     await axios
       // .post("http://localhost:3000/api/v1/users/signup", userInfo)
-      .post("http://localhost:3000/api/v1/users/signup", userInfo)
+      .post("https://job-scraping-extension-backend.onrender.com/api/v1/users/signup", userInfo)
       .then((res) => {
         console.log(res.data);
         if (res.data) {
